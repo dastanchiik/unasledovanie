@@ -6,10 +6,12 @@ import person.Singer;
 
 public class Main {
     public static void main(String[] args) {
-        program();
+        programProgrammer();
+        programDancer();
+        programSinger();
 
     }
-        public static void program() {
+        public static void programProgrammer() {
 
             Programmer programmer = new Programmer();
             programmer.setName("Ariet");
@@ -20,6 +22,8 @@ public class Main {
             programmer.properties();
             System.out.print("and ");
             programmer.programmer();
+        }
+        public static void programDancer() {
             Dancer dancer = new Dancer();
             dancer.setName("Janara");
             dancer.setAge(19);
@@ -28,7 +32,9 @@ public class Main {
             System.out.println(dancer);
             dancer.properties();
             System.out.print("and ");
-            dancer.properties1();
+            dancer.properties();
+        }
+        public static void programSinger(){
             Singer singer = new Singer();
             singer.setName("Daniel");
             singer.setAge(15);
@@ -37,7 +43,7 @@ public class Main {
             System.out.println(singer);
             singer.properties();
             System.out.print("and ");
-            singer.properties2();
+            singer.properties();
         }
     }
 

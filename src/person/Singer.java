@@ -4,7 +4,7 @@ public class Singer extends Person {
 
     private String genre;
 
-    public void properties2() {
+    public void properties() {
         System.out.print("sings"+"\n");
     }
 

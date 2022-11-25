@@ -3,7 +3,7 @@ package person;
 public class Dancer extends Person {
     private String dance;
 
-    public void properties1() {
+    public void properties() {
         System.out.print("dancing"+"\n");
     }
 
