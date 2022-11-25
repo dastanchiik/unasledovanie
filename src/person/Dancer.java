@@ -22,7 +22,7 @@ public class Dancer extends Person {
     public String toString() {
         return "Dancer{" +
                 super.toString()+
-                "music='" + dance + '\'' +
+                "dance ='" + dance + '\'' +
                 '}';
     }
 
