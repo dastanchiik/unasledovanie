@@ -6,7 +6,7 @@ public class Person {
     private String national;
 
     public void properties() {
-        System.out.println("running around" + "\n");
+        System.out.print("running ");
 
     }
 
@@ -50,7 +50,6 @@ public class Person {
         return
                 "name = '" + name + '\'' +
                 ", age = " + age +
-                ", national = '" + national + '\'' +
-                '}';
+                ", national = '" + national + '\''+'\'';
     }
 }

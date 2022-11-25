@@ -4,7 +4,7 @@ public class Programmer extends Person {
     private String languageProgramming;
 
     public void programmer() {
-        System.out.printf("earns a lot" + "\n");
+        System.out.print("earns a lot"+"\n");
     }
 
     public Programmer() {
@@ -28,8 +28,8 @@ public class Programmer extends Person {
     public String
          toString() {
         return "Programmer{"+'\''+
-        "languageProgramming='" + languageProgramming + '\'' +
                 super.toString()+
+        "languageProgramming='" + languageProgramming + '\'' +
                 '}';
     }
 }

@@ -4,7 +4,7 @@ public class Dancer extends Person {
     private String dance;
 
     public void properties1() {
-        System.out.println("dancing");
+        System.out.print("dancing"+"\n");
     }
 
     public Dancer() {
@@ -21,8 +21,8 @@ public class Dancer extends Person {
     @Override
     public String toString() {
         return "Dancer{" +
-                "music='" + dance + '\'' +
                 super.toString()+
+                "music='" + dance + '\'' +
                 '}';
     }
 

@@ -5,7 +5,7 @@ public class Singer extends Person {
     private String genre;
 
     public void properties2() {
-        System.out.println("sings");
+        System.out.print("sings"+"\n");
     }
 
     public Singer() {
@@ -22,8 +22,8 @@ public class Singer extends Person {
     @Override
     public String toString() {
         return "Singer{" +
-                "genre='" + genre + '\'' +
                 super.toString()+
+                "genre='" + genre + '\'' +
                 '}';
     }
 }
